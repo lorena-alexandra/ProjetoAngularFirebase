@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RobsonComponent } from './robson.component';
 import { IonicModule } from '@ionic/angular';
-import { BannerComponent } from './banner.component';
 
 
 
 @NgModule({
-  declarations: [BannerComponent],
+  declarations: [RobsonComponent],
   imports: [
     CommonModule,
     IonicModule
   ],
-  exports:[BannerComponent]
+  exports :[
+    RobsonComponent
+  ]
 })
-export class BannerModule { }
+export class RobsonModule { }

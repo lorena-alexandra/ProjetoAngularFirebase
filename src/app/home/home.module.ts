@@ -8,6 +8,8 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { HeaderModule } from '../shared/header/header.module';
 import { FooterModule } from '../shared/footer/footer.module';
 import { GaleriaModule } from '../galeria/galeria.module';
+import { BannerModule } from '../shared/banner/banner.module';
+import { RobsonModule } from '../shared/robson/robson.module';
 
 
 @NgModule({
@@ -17,8 +19,9 @@ import { GaleriaModule } from '../galeria/galeria.module';
     IonicModule,
     HomePageRoutingModule,
     HeaderModule,
-    FooterModule,
-    GaleriaModule
+    FooterModule, 
+    BannerModule,
+    RobsonModule
   ],
   declarations: [HomePage]
 })
